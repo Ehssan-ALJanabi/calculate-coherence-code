@@ -20,7 +20,7 @@ rootPath=r"D:\XXX" # dataset Location
 dataPath = rootPath + "\derivatives"
 window_length = 0.4  # Length of each time window in seconds > To calculate Coherence matrix
 window_overlap = 0.2  # Overlap length in seconds
-segment_length = 10
+segment_length = 30
 segment_overlap = 0
 
 participants=pd.read_csv(rootPath + "\participants.tsv", sep='\t')
